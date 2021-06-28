@@ -1,0 +1,83 @@
+/*Estilo para mobile*/
+@media only screen and (min-width: 300px) and (max-width: 788px) {
+  .flex {
+    max-width: 300px;
+    flex-direction: column;
+  }
+
+  /*Intro*/
+
+  .intro {
+    padding: 0 10px;
+    max-width: 100%;
+  }
+
+  .content-intro {
+    margin-left: 0;
+    padding: 0;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+  }
+
+  .nav-menu ul li a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .logo {
+    flex: auto;
+    margin: 0 auto 20px auto;
+  }
+
+  /*Quote*/
+
+  .quote p {
+    font-size: 1em;
+  }
+  .quote cite {
+    font-size: 1.25em;
+  }
+
+  /*Aulas*/
+
+  .img-aulas img {
+    margin-bottom: 20px;
+  }
+
+  /*Sobre*/
+
+  .sobre-img img {
+    margin-top: 20px;
+  }
+
+  /*Planos*/
+
+  .planos ul {
+    margin-bottom: 20px;
+  }
+
+  /*Footer*/
+
+  .footer > p {
+    margin-bottom: 20px;
+  }
+
+  .footer a > p {
+    padding: 0 10px;
+  }
+
+  /*Títulos*/
+
+  .bg-main h2,
+  .bg-aulas > h2,
+  .bg-planos h2,
+  .sobre h2 {
+    font-size: 1.563em;
+  }
+
+  .content-aulas ul li h2 {
+    font-size: 1.25em;
+  }
+}
